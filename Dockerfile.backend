@@ -1,0 +1,21 @@
+# Stage 1: Build the Spring Boot application
+FROM maven:3.9.6-eclipse-temurin-21 AS builder
+
+WORKDIR /app
+
+COPY . .
+
+RUN mvn clean package -DskipTests
+
+# Stage 2: Run the Spring Boot application
+FROM eclipse-temurin:21-jre
+
+WORKDIR /app
+
+# Copy the WAR and rename to app.war
+COPY --from=builder /app/target/jobback.war app.war
+
+EXPOSE 8081
+
+# Run it like an executable WAR
+CMD ["java", "-jar", "app.war"]

@@ -1,0 +1,12 @@
+J:\CICD PP\jobback\src\main\java\klu\controller\JobController.java
+J:\CICD PP\jobback\src\main\java\klu\controller\UserController.java
+J:\CICD PP\jobback\src\main\java\klu\modal\EmailManager.java
+J:\CICD PP\jobback\src\main\java\klu\modal\Job.java
+J:\CICD PP\jobback\src\main\java\klu\modal\JobManager.java
+J:\CICD PP\jobback\src\main\java\klu\modal\User.java
+J:\CICD PP\jobback\src\main\java\klu\modal\UserManager.java
+J:\CICD PP\jobback\src\main\java\klu\repository\JobRepository.java
+J:\CICD PP\jobback\src\main\java\klu\repository\UserRepository.java
+J:\CICD PP\jobback\src\main\java\klu\service\CorsConfig.java
+J:\CICD PP\jobback\src\main\java\klu\service\JobPortalBackendApplication.java
+J:\CICD PP\jobback\src\main\java\klu\ServletInitializer.java
