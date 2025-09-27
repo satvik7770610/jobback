@@ -1,0 +1,13 @@
+klu\controller\UserController.class
+klu\modal\JobManager.class
+klu\modal\User.class
+klu\service\JobPortalBackendApplication.class
+klu\modal\EmailManager.class
+klu\modal\Job.class
+klu\controller\HomeController.class
+klu\ServletInitializer.class
+klu\service\CorsConfig.class
+klu\repository\JobRepository.class
+klu\controller\JobController.class
+klu\modal\UserManager.class
+klu\repository\UserRepository.class
